@@ -1,0 +1,2 @@
+# PractickSiteDjango
+PractickSiteDjango
