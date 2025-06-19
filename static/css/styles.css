@@ -1,0 +1,40 @@
+.button_drop_down_icon{
+    color: white;
+    font-size: 25px;
+}
+html, body{
+    height: 100%;
+}
+.form_login input{
+    width: 100%;
+    height: 35px; !important;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.form_login textarea{
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.wrapper_login_form {
+    max-width: 600px;
+    width: 98%;
+}
+.img_my{
+    object-fit: cover; !important;
+    height: 100%; !important;
+}
+.font_i{
+    font-size: 32px;
+    color: #25cff2;
+}
+.hover_card{
+    transition: 0.3s ease-in-out;
+}
+.hover_card:hover{
+    transform: scale(1.05);
+}

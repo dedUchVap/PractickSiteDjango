@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <main>
+        <div class="bg-light p-4">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center gap-3">
+                    <div class="col-12 col-md-4">
+                        <div class="d-flex justify-content-center flex-column gap-3">
+                            <div class="card bg-primary text-white shadow rounded-5" style="height: 50%; width: 100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Надёжное строительство</h5>
+                                    <hr>
+                                    <p class="card-text">Мы реализуем проекты любой сложности: от фундамента до отделки.
+                                        Гарантируем качество и соблюдение сроков.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row gap-3 justify-content-end" style="height: 50%">
+                                <div class="card shadow rounded-3 h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Наши услуги</h5>
+                                        <p class="card-text">Строительство домов, ремонт, фасадные и кровельные работы,
+                                            дизайн и проектирование под ключ.</p>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-3 h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Почему мы?</h5>
+                                        <p class="card-text">Опыт более 10 лет, профессиональная команда, прозрачные
+                                            сметы.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mb-3" style="height: 350px">
+                            <img src="{% static 'img/home/home.jpg' %}" alt="..." class="card-img-top img_my">
+                            <div class="card-body">
+                                <h5 class="card-title">Наши объекты</h5>
+                                <p class="card-text">Смотрите примеры наших реализованных проектов — качество видно с
+                                    первого взгляда.</p>
+                                <p class="card-text"><small class="text-body-secondary">Обновлено недавно</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="text-center p-4">
+                    <h3>Почему мы?</h3>
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center mb-3 mb-md-5"
+                     style="height: 80px;">
+                    <div class="bg-light p-4 d-flex justify-content-center align-items-center gap-2 rounded-4 shadow-sm hover_card"
+                         style="max-width: 320px; width: 100%;">
+                        <i class="fa-solid fa-clock font_i"></i> <span class="fw-bold">Большой опыт работы</span></div>
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center mb-3 mb-md-5"
+                     style="height: 80px">
+                    <div class="bg-light p-4 d-flex justify-content-center align-items-center gap-2 rounded-4 shadow-sm hover_card"
+                         style="max-width: 320px; width: 100%;">
+                        <i class="fa-solid fa-calendar font_i"></i> <span class="fw-bold">Много лет на рынке</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center mb-3 mb-md-5"
+                     style="height: 80px">
+                    <div class="bg-light p-4 d-flex justify-content-center align-items-center gap-2 rounded-4 shadow-sm hover_card"
+                         style="max-width: 320px; width: 100%;">
+                        <i class="fa-solid fa-star font_i"></i> <span class="fw-bold">Множество отзывов</span></div>
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center mb-3 mb-md-5"
+                     style="height: 80px">
+                    <div class="bg-light p-4 d-flex justify-content-center align-items-center gap-2 rounded-4 shadow-sm hover_card"
+                         style="max-width: 320px; width: 100%;">
+                        <i class="fa-solid fa-list font_i"></i> <span class="fw-bold">Большой выбор</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Отзывы клиентов</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Отличная работа! Построили дом точно в срок и без лишних затрат.
+                                Рекомендую!"</p>
+                            <h6 class="card-subtitle text-muted text-end">— Алексей К.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Бригада профессионалов. Всё аккуратно, качественно и с вниманием к
+                                деталям."</p>
+                            <h6 class="card-subtitle text-muted text-end">— Ирина С.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Спасибо за ремонт! Работы выполнены на высоком уровне, очень довольны
+                                результатом."</p>
+                            <h6 class="card-subtitle text-muted text-end">— Михаил и Анна</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
